@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+
+int main() {
+    int numero;
+
+//solicitar un numero al usuario
+printf("Ingresa un numero entero: ");
+scanf("%d",&numero);
+
+//evaluar si es par o impar
+
+if (numero % 2 == 0){
+    printf("%d es un numero par. \n", numero);
+    } else {
+     printf("%d es un numero impar. \n", numero);
+    }
